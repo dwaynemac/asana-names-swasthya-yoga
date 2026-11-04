@@ -1,0 +1,14 @@
+interface:
+  display_name: Ásanas - Swásthya Yôga
+  short_description: Nombres de ásanas según Swásthya Yôga
+  default_prompt: Usá $asana-names-swasthya-yoga para nombrar los ásanas de esta
+    respuesta según las referencias de Swásthya Yôga.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

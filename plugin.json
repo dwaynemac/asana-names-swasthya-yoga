@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "asanas-swasthya-yoga",
+  "version": "1.0.0",
+  "description": "Nomenclatura de ásanas de Swásthya Yôga, verificada con las referencias incluidas.",
+  "keywords": [
+    "asanas",
+    "swasthya",
+    "yoga",
+    "nomenclatura"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Ásanas - Swásthya Yôga",
+        "shortDescription": "Nombres de ásanas según Swásthya Yôga",
+        "longDescription": "Aplica la nomenclatura de Swásthya Yôga al nombrar ásanas. Incluye familias, variantes con sus números originales y correlaciones de nombres del Tratado y del usuario. Conserva acentos y variantes y evita equivalencias no verificadas.",
+        "defaultPrompt": [
+          "Usá la nomenclatura de Swásthya Yôga para nombrar los ásanas de esta respuesta."
+        ]
+      }
+    }
+  }
+}
